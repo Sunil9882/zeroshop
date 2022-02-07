@@ -1,0 +1,64 @@
+img {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+
+body {
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    justify-content: center;
+}
+
+.header {
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.image {
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+    height: 35px;
+    padding: 6px;
+    margin-block-end: 0px;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 30px;
+    background-color: rgb(97, 165, 241);
+}
+
+button,
+.button {
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    width: 265px;
+    height: 35px;
+    border: 2px solid black;
+    /* display: flex; */
+    margin: 0px;
+    cursor: pointer;
+    /* padding: 5px; */
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(8, 186, 240);
+}
